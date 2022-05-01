@@ -1,0 +1,64 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+
+/* default values set as CSS variables */
+:root {
+  --wrapper-height: 87vh;
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+
+body {
+  background-color: pink;
+}
+
+
+
+
+/* MY CSS */
+
+.row {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 0;
+}
+
+.cell {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  margin: 0;
+  text-align: center;
+  vertical-align: center;
+  font-size: 60px;
+}
+
+#c2, #c8, #c5 {
+  border-left: none;
+  border-right: none;
+}
+
+#c4, #c5, #c6 {
+  border-top: none;
+  border-bottom: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.top {
+  margin-top: 15%
+}
+
